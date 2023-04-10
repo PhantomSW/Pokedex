@@ -29,3 +29,9 @@ Le cahier des charges :
   - Les pokemons que l'utilisateur a ajouté s'affichent sur son profil, mais pas les autres
   - La collection affiche tous les pokemons qui existent
   - Pas de page pour supprimer un pokemon ou un utilisateur (le faire via mysql)
+  - Le footer devra comprendre un script php pour afficher l'année actuelle
+
+  Les redirections :
+  - Après une connexion réussie retour vers la page d'acceuil sans être connecté
+  - Après un échec de connexion, retour vers la page de connexion accompagnée d'un message
+  - Après l'ajout d'un pokemon, redirection vers la page d'ajout des pokemons
