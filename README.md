@@ -16,8 +16,7 @@ Le cahier des charges :
   verif_inscription.php :
   - le pseudo n’est pas déjà utilisé
   - l’email n’est pas déjà utilisé
-  - le mot de passe contient au moins 8 caractères dont une majuscule, une minuscule et un 
- chiffre
+  - le mot de passe contient au moins 8 caractères dont une majuscule, une minuscule et un chiffre
   - l’image de profil est bien une image et ne dépasse pas 1Mo
   verif_connexion.php :
   - l’email et le mot de passe correspondent à un utilisateur en base de données
@@ -30,6 +29,7 @@ Le cahier des charges :
   - La collection affiche tous les pokemons qui existent
   - Pas de page pour supprimer un pokemon ou un utilisateur (le faire via mysql)
   - Le footer devra comprendre un script php pour afficher l'année actuelle
+  - Le footer ne devra pas remonter en plein milieu pour les pages n'ayant pas de contenu jusqu'en bas. Cependant, il ne doit pas non plus être fixé.
 
   Les redirections :
   - Après une connexion réussie retour vers la page d'acceuil sans être connecté
